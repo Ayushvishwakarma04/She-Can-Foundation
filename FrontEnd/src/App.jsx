@@ -40,10 +40,17 @@ function App() {
       Promise.all([
         fetchDashboardData(),
         fetchLeaderboardData(),
-      ]).then(([dashboardData, leaderboardData]) => {
+      ])
+      .then(([dashboardData, leaderboardData]) => {
         setInternData(dashboardData);
         setLeaderboardData(leaderboardData);
-      }).finally(() => {
+      })
+      .catch((error) => {
+        console.error('Fetch error:', error);
+        setInternData(null); 
+        setLeaderboardData(null);
+      })
+      .finally(() => {
         setLoading(false);
       });
     }

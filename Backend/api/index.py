@@ -16,14 +16,13 @@ app.add_middleware(
 
 def read_db():
     try:
-        with open("../database/users.json", "r") as f:
+        with open("../database/dat.json", "r") as f:
             return json.load(f)
     except FileNotFoundError:
-        # empty db create if don't exists
-        return {"users": {}}
+        return {"users": {}, "intern_data": {}, "leaderboard_data": []}
 
 def write_db(data):
-    with open("../database/users.json", "w") as f:
+    with open("../database/dat.json", "w") as f:
         json.dump(data, f, indent=2)
 
 @app.post("/signup")

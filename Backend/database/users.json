@@ -5,6 +5,9 @@
     },
     "new": {
       "password": "new"
+    },
+    "a": {
+      "password": "a"
     }
   },
   "intern_data": {

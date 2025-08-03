@@ -10,6 +10,18 @@ This project is a web application designed to provide a dashboard for interns, d
   * **Dark Mode:** A toggleable dark theme for a better user experience.
   * **Animations:** Smooth UI transitions and animations powered by `framer-motion`.
 
+
+## Screenshots
+
+### Signup Page
+![Sign Up Image](/FrontEnd/src/assets/signUp.png)
+
+### Login Page
+![Log In Image](/FrontEnd/src/assets/logIn.png)
+
+### Dashboard
+![Dashboard Image](/FrontEnd/src/assets/Dashboard.png)
+
 ## Technology Stack
 
 ### Front-End
