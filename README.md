@@ -98,10 +98,7 @@ my-intern-project/
     ```bash
     cd BackEnd
     source venv/bin/activate
-    # Example for Flask:
-    flask run
-    # Example for FastAPI:
-    uvicorn main:app --reload
+    uvicorn index:app --reload
     ```
 
 2.  **Run the Front-End development server:**
