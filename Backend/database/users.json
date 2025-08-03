@@ -1,0 +1,29 @@
+{
+  "users": {
+    "ayush": {
+      "password": "ayush2025"
+    },
+    "new": {
+      "password": "new"
+    }
+  },
+  "intern_data": {
+    "name": "Ayush Vishwakarma",
+    "referralCode": "ayushvishwakarma2025",
+    "donationsRaised": 2500
+  },
+  "leaderboard_data": [
+    {
+      "name": "Jane Doe",
+      "donations": 2500
+    },
+    {
+      "name": "Alex Smith",
+      "donations": 2100
+    },
+    {
+      "name": "Chris Evans",
+      "donations": 1800
+    }
+  ]
+}
